@@ -1,15 +1,15 @@
 add = (a, b) => a + b;
 
-subtract = (a, b) => a - b;
+function subtract(a, b) { return a - b };
 
-multiply = (a, b) => a * b;
+function multiply(a, b) { return a * b};
 
-divide = (a, b) => a / b;
+function divide(a, b) { return a / b};
 
-inc = (n) => n++;
+function inc(n) { return n = n + 1};
 
-dec = (n) => n--;
+function dec(n) { return n = n - 1};
 
-makeInt = (n) => parseInt(n, 10);
+function makeInt(n) { return parseInt(n, 10)};
 
-preserveDecimal = (n) => parseFloat(n);
+function preserveDecimal(n) { return parseFloat(n)};
